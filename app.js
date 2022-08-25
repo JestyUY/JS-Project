@@ -1,10 +1,10 @@
-var characterInformationFirst = document.querySelector("#user1");
+/*var characterInformationFirst = document.querySelector("#user1");
 var characterInformationSecond = document.querySelector("#user2");
 var characterInformationThird = document.querySelector("#user3");
 var characterInformationFourth = document.querySelector("#user4");
 var characterInformationFifth = document.querySelector("#user5");
 var characterInformationSixth = document.querySelector("#user6");
-
+*/
 
 var mainContainer = document.querySelector("#secondContainer");
 
