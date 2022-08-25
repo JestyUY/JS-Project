@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color:rgb(163, 163, 163);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    background-color: rgb(163, 163, 163);
+    width: 90%;
+    margin: auto;
+
+}
+.container h1 {
+    text-align: center;
+}
+.users-list{
+    background-color: white;
+    border: 1px solid rgb(80, 79, 79);
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.user-data h3 {
+    text-align: center;
+}
+.user-data img {
+    width: 80%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+   
+}
+.button-add {
+background-color: rgb(12, 110, 12);
+color: white;
+border: none;
+border-radius: 5px;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 5px;
+display: block;
+margin: auto;
+margin-top: 30px;
+
+}
+
+
+
+
+
+@media (min-width: 600px) {
+  .users-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.user-data {
+  width: 48%;
+}
+  }
+  @media (min-width: 1100px) {
+    .users-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 800px;
+  }
+  .user-data {
+    width: 32%;
+  }
+    }
